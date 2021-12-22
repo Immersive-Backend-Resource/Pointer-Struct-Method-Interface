@@ -24,7 +24,7 @@ func TestStudentsScore(t *testing.T) {
 		avg := a.Average()
 		scoreMax, nameMax := a.Max()
 		scoreMin, nameMin := a.Min()
-		assert.Equal(t, float64(81), avg, "Hasil output tidak sesuai")
+		assert.Equal(t, float64(81.66666666666667), avg, "Hasil output tidak sesuai")
 		assert.Equal(t, 100, scoreMax, "Hasil output tidak sesuai")
 		assert.Equal(t, "cindy", nameMax, "Hasil output tidak sesuai")
 		assert.Equal(t, 60, scoreMin, "Hasil output tidak sesuai")
